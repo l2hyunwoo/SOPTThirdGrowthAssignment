@@ -1,4 +1,4 @@
-package com.example.soptthirdgrowthassignment.main.RecyclerView
+package com.example.soptthirdgrowthassignment.main.RecyclerHome
 
 import android.content.Context
 import android.view.LayoutInflater

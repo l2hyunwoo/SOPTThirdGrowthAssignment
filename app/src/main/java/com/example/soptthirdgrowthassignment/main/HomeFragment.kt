@@ -7,8 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.soptthirdgrowthassignment.R
-import com.example.soptthirdgrowthassignment.main.RecyclerView.InstaAdapter
-import com.example.soptthirdgrowthassignment.main.RecyclerView.InstaData
+import com.example.soptthirdgrowthassignment.main.RecyclerHome.InstaAdapter
+import com.example.soptthirdgrowthassignment.main.RecyclerHome.InstaData
 import kotlinx.android.synthetic.main.fragment_home.*
 
 /**

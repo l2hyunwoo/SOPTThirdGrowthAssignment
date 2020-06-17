@@ -13,8 +13,11 @@ import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
+
 class LoginActivity : AppCompatActivity() {
-    val requestToServer : RequestToServer = RequestToServer
+
+
+    val requestToServer = RequestToServer
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -33,6 +36,7 @@ class LoginActivity : AppCompatActivity() {
                     )
                 ).enqueue(object : Callback<ResponseLogin>{
                     override fun onFailure(call: Call<ResponseLogin>, t: Throwable) {
+                        Log.d("${t.message}", "${t.stackTrace}")
                         Log.d("통신 실패", "안됩니다")
                     }
 
