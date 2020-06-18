@@ -13,7 +13,7 @@ class BookViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
     val tv_title : TextView = itemView.findViewById<TextView>(R.id.tv_title)
     val tv_content : TextView = itemView.findViewById<TextView>(R.id.tv_content)
     fun bind(bookData: BookXMLData){
-        Glide.with(itemView).load(bookData.imgBook).into(img_book)
+        Glide.with(itemView).load(bookData.thumbnail).into(img_book)
         tv_title.text = bookData.title
         tv_content.text = bookData.contents
     }

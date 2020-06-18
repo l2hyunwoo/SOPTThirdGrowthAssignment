@@ -13,5 +13,5 @@ data class BookXMLData(
     //@SerializedName("title")
     val title:String,
     //@SerializedName("thumbnail")
-    val imgBook:String
+    val thumbnail:String
 )

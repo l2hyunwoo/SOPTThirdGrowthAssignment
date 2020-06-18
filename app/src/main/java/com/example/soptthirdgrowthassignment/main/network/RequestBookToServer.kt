@@ -6,7 +6,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object RequestBookToServer {
     var retrofit = Retrofit.Builder()
-        .baseUrl("https://dpai.kakao.com")
+        .baseUrl("https://dapi.kakao.com")
         .addConverterFactory(GsonConverterFactory.create())
         .build()
 
